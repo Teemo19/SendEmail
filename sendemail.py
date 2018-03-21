@@ -23,7 +23,7 @@ def ListToStr(list):
         except:
                 pass
 class email:
-        From=open("/usr/local/pass/from_email_sender","r").read()
+        From=open("/usr/local/pass/from_email_sender","r").read()#Email
         To=ListToStr(result.To)
         Subject=ListToStr(result.Subject)
         Pass=open("/usr/local/pass/pass_email_sender","r").read()#Email Password
